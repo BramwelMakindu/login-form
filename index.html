@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <span></span>
+        <span></span>
+        <span></span>
+        <form id="login-form">
+            <h2>Login</h2>
+            <div class="input-div">
+                <input type="text" placeholder="Enter Username">
+            </div>
+            <div class="input-div">
+                <input type="password" placeholder="Enter Password">
+            </div>
+            <div class="input-div group">
+                <a href="#">Forgot Password</a>
+                <a href="#" id="signup">Create Account</a>
+            </div>
+            <div class="input-div">
+                <input type="submit" value="Log In">
+            </div>
+        </form>
+
+        <form id="signup-form">
+            <h2>Sign up</h2>
+            <div class="input-div">
+                <input type="text" placeholder="Enter Username">
+            </div>
+            <div class="input-div">
+                <input type="email" placeholder="Enter your email">
+            </div>
+            <div class="input-div">
+                <input type="password" placeholder="Create Password">
+            </div>
+            <div class="input-div">
+                <input type="password" placeholder="Confirm Password">
+            </div>
+            <div class="input-div">
+                <input type="submit" value="Sign Up">
+            </div>
+            <div class="input-div group">
+                <a href="#">Already have an account? <b id="signin">Login</b></a>
+            </div>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
